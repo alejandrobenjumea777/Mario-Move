@@ -5,6 +5,10 @@ document.addEventListener("keydown", (event) => {
         case "ArrowLeft":
             posicionX = posicionX - 10;
             break;
+         case "ArrowRight":
+            posicionX = posicionX + 10;
+            break;
+
 
     }
     mario.style.left=posicionX + "px";

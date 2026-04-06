@@ -4,9 +4,11 @@ document.addEventListener("keydown", (event) => {
     switch (event.key) {
         case "ArrowLeft":
             posicionX = posicionX - 10;
+            mario.style.transform = "scaleX(-1)";
             break;
          case "ArrowRight":
             posicionX = posicionX + 10;
+            mario.style.transform = "scaleX(1)";
             break;
 
 
